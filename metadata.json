@@ -1,0 +1,6 @@
+{
+  "name": "Sirius Sai & Mary Soe — Wedding Invitation",
+  "description": "An animated Southeast Asian wedding invitation for Sirius Sai and Mary Soe celebrating on Saturday, 20 March 2027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
