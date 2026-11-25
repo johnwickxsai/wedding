@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bodoni Moda", Georgia, "Times New Roman", serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-myanmar: "Noto Sans Myanmar", "DM Sans", sans-serif;
+
+  --color-jade-dark: #16302B;
+  --color-jade-deep: #102420;
+  --color-jade-surface: #1D3E38;
+  --color-jade-light: #EEF3EF;
+  --color-jade-pale: #F7FAF8;
+  --color-marigold: #E0A526;
+  --color-marigold-deep: #A67308;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+    font-family: var(--font-sans);
+    background-color: #16302B;
+    color: #EEF3EF;
+  }
+
+  body {
+    overflow-x: clip;
+    margin: 0;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-myanmar {
+    font-family: var(--font-myanmar);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
